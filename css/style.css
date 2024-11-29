@@ -108,6 +108,7 @@ form button[type="loginbtn"]:hover {
     background-color: #256029;
 }
 
+
 form p {
     text-align: center;
     color: #999;
@@ -124,13 +125,13 @@ form p {
     align-items: center;
 }
 
-.design {
+.design-picture {
     width: 80%;
     height: auto;
 }
 
 .design img {
-  width: 250px;
+  width: 500px;
   margin-bottom: 20px;
 }
 

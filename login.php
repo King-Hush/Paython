@@ -1,6 +1,7 @@
 <?php 
 require_once "account.class.php";
 require_once "tools/functions.php";
+
 $accObj = new Account;
 
 session_start();
@@ -33,6 +34,7 @@ $password = $email = '';
                 <a href="">Forgot Password?</a>
 
                 <button type="loginbtn">Log In</button>
+                <p>Dont have an Account?<a href ="signup.php">Click here</a></p>
             </form>
             <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -59,8 +61,8 @@ $password = $email = '';
 }?>
         </div>
         
-        <div class="design">
-            <img src="img/Screenshot 2024-11-02 034438.png" alt="basta design kay d ko alam paano ilagay yung mga border chuchu kaya yung img na lng yung ano sa figma niglagay ko dito yung sa side d ko alm paano yun"> 
+        <div class="design-picture">
+            <img src="Screenshot 2024-11-29 204628.png"> 
         </div>
     </section>
 </body>
