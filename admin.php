@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>PAYTHON</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="PaythonStyles/style.css">
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -33,7 +33,7 @@
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="paymentAdmin.php">
           <i class='bx bxl-paypal'></i>
           <span class="list_name">Payment</span>
         </a>
@@ -59,7 +59,7 @@
         <i class='bx bx-search'></i>
       </div>
       <div class="profile-details">
-        <img src="" alt="">
+        <img src="pictures\python.jpg" alt="">
         <span class="admin_name">NAME</span>
         <i class='bx bx-chevron-down'></i>
       </div>
