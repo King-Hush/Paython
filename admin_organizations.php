@@ -75,7 +75,7 @@ value: try {
                     </a>
                 </li>
                 <li>
-                    <a href="addstudent.php">
+                    <a href="studentlist.php">
                         <i class='bx bx-user-pin'></i>
                         <span class="list_name">Student List</span>
                     </a>
