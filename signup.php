@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
-    <link rel="stylesheet" href="PaythonStyles/signupstyle.css">
+    <link rel="stylesheet" href="signupstyle.css">
 </head>
 <body>
     <section class ="signup-form">
@@ -105,12 +105,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="section">Section</label>
         <input type="text" id="section" name="section" required>
 
-        <button type="submit">Signup</button>
+        <button type="submit">Sign up Now</button>
     </form>
 </section>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> c58c6b79f63d9074df6225f2277398eb4a58e6d7

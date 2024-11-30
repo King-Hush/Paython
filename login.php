@@ -33,7 +33,6 @@ $password = $email = '';
 
                 <a href="">Forgot Password?</a>
                 
-               //button
                 <button type="loginbtn">Log In</button>
                 <p>Dont have an Account?<a href ="signup.php">Click here</a></p>
             </form>
@@ -64,7 +63,7 @@ $password = $email = '';
     }
 }?>
         </div>
-        //picture
+
         <div class="design-picture">
          <img src="Screenshot 2024-11-29 204628.png"> 
         </div>
